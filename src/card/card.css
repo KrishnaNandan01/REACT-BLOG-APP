@@ -2,7 +2,7 @@ body{
     background-color: rgb(234, 230, 230);
 }
 .card-div{
-    height: 90%;
+    height: 90%; 
     width: 95%;
     display: flex;
     flex-wrap: wrap;
