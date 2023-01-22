@@ -1,0 +1,34 @@
+body{
+    margin: 0px;
+}
+header{
+    position: sticky;
+    top: 0px;
+    background-color:rgb(26, 26, 39);
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header>div{
+    height: 50%;
+}
+
+.btn{
+    border: none;
+    background-color:rgb(26, 26, 39);
+    color: rgb(164, 164, 164);
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-right: 20px;
+}
+.btn:hover{
+    cursor: pointer;
+    border-bottom: 2px solid blue;
+}
+#jsom{
+    margin-left: 20px;
+}
+#jsom:hover{
+    border-bottom: 2px solid white;
+}

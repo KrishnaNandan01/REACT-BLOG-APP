@@ -1,0 +1,106 @@
+
+.profile-card-div{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+#profile{
+    height: 35vh;
+    width: 30%;
+    background-color: rgb(38, 36, 36);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   padding-top: 20px;
+}
+.grey{
+    color: grey;
+}
+
+
+#profile>p{
+    margin-block-start: 0em;
+    margin-block-end: 0.2em;
+}
+#name{
+    font-size: 2rem;
+    font-weight: 600;
+}
+#p-size{
+    font-size: 1.2rem;
+    margin: 20px;
+    margin-block-end: 0.2em;
+}
+.margin{
+    margin-top: 20px;
+}
+.sort{
+    background-color: rgb(110, 110, 182);
+    width: 80%;
+    height: 50px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+}
+.post{
+    width: 80%;
+    height: 50px;
+    border-radius: 5px;
+}
+.post-sort{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sort>button{
+    height: 100%;
+    border: none;
+    font-size: 1.5rem;
+    background-color: transparent;
+    margin: 0px 20px;
+    color: white;
+}
+
+.sort>button:hover{
+    background-color: blue;
+    transition: 250ms;
+}
+
+.table-div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+    align-items: center;
+}
+.element{
+    width:90%;
+    height: 50px;
+    background-color:white;
+    border: 1px solid rgb(210, 209, 209);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+    margin-top: 20px;
+}
+.element>div{
+    color: rgb(148, 148, 239);
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+#data{
+    width: 30%;
+}
+.link-tag{
+    width: 90%;
+    text-decoration: none;
+
+}
+.ele{
+    width: 100%;
+    height: 50px;
+}
+
+
